@@ -26,4 +26,4 @@ def results():
     return render_template('res.html', main=main, ques=ques)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
